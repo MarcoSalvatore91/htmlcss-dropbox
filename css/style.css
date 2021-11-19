@@ -165,8 +165,15 @@ nav > a {
 /* Tariffa Dropbox Col */
 
 .col {
+    float: left;
     height: 300px;
     border: 1px solid;
+    width: calc(33% - 20px);
+}
+
+.col-middle {
+    width: calc(33% - 60px);
+    margin: 0 60px;
 }
 
 /* Footer */
