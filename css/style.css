@@ -57,7 +57,11 @@ a:hover {
 }
 
 .small-conteiner h1{
-    font-size: 45px;
+    font-size: 40px;
+}
+
+.gray {
+    color: lightgrey;
 }
 
 /* Content */
@@ -166,13 +170,25 @@ nav > a {
 
 .col {
     float: left;
-    height: 300px;
-    border: 1px solid;
-    width: calc(33% - 59px);
+    height: 600px;
+    border: 1px solid lightgrey;
+    width: calc(33% - 40px);
 }
 
 .col-middle {
     margin: 0 60px;
+}
+
+.icon {
+    height: 40px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    line-height: 40px;
+}
+
+.col-info {
+    margin: 30px;
+    padding: 0 5px;
 }
 
 /* Footer */
