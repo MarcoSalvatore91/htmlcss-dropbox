@@ -45,6 +45,7 @@ a:hover {
 
 .btn{
     color: white;
+    line-height: 1;
 }
 
 .btn:hover {
@@ -71,8 +72,7 @@ a:hover {
     margin: 0 15px;
     float: left;
     width: calc(50% - 30px);
-    height: 20px;
-    line-height: 20px;
+    line-height: 80px;
 }
 
 .nav-head {
@@ -80,10 +80,10 @@ a:hover {
     text-decoration: none;
     color: black;
     padding: 30px;
+    vertical-align: middle;
 }
 
 .head-right {
-    display: block;
     text-align: right;
 }
 
@@ -168,11 +168,10 @@ nav > a {
     float: left;
     height: 300px;
     border: 1px solid;
-    width: calc(33% - 20px);
+    width: calc(33% - 59px);
 }
 
 .col-middle {
-    width: calc(33% - 60px);
     margin: 0 60px;
 }
 
