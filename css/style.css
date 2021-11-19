@@ -4,6 +4,61 @@
     box-sizing: border-box;
 }
 
+/* Generics */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Utilities */
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.title {
+    margin: 0 15px;
+    float: left;
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Content */
+
+/* Header */
+
+.title img 
+
+.nav-logo a {
+    text-decoration: none;
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+.head-right {
+    text-align: right;
+}
+
+/* Main */
+
+
+
+/* Footer */
+
