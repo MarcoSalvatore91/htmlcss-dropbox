@@ -18,6 +18,11 @@ body {
     margin: 0 auto;
 }
 
+.small-conteiner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .clearfix::after {
     display: table;
     content: "";
@@ -48,6 +53,10 @@ a:hover {
 
 .f-bold{
     font-weight: bold;
+}
+
+.small-conteiner h1{
+    font-size: 45px;
 }
 
 /* Content */
@@ -88,6 +97,7 @@ nav > a {
 #jumbotron {
     background-color: rgb(180,208,231);
     height: 650px;
+    margin-bottom: 200px;
 }
 
 #big-title {
@@ -134,6 +144,30 @@ nav > a {
 
 /* Main */
 
+/* Tariffa Dropbox */
+
+#period-payment {
+    margin: 80px 0 40px 0;
+}
+
+.circle-point {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+#payment-month {
+   margin-right: 30px;
+}
+
+/* Tariffa Dropbox Col */
+
+.col {
+    height: 300px;
+    border: 1px solid;
+}
 
 /* Footer */
 
