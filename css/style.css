@@ -269,9 +269,33 @@ nav span {
 
 /* Entra in contatto con un partner Dropbox */
 
+.dropbox-partner {
+    margin-top: 15++0px;
+}
+
 .wd-50 {
     float: left;
-    min-height: 300px;
+    height: 400px;
+    width: 50%;
+}
+
+.wd-50 img {
+    height: 100%;
+    width: 100%;
+}
+
+.wd-50-text {
+    padding: 20px 40px;
+}
+
+.wd-50-text p {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.wd-50-text span {
+    border: 1px solid black;
+    padding: 5px 15px;
 }
 
 /* Footer */
