@@ -239,6 +239,7 @@ nav span {
 
 .f-size a {
     text-decoration: underline;
+    color: rgb(0,97,254);
 }
 
 
@@ -327,5 +328,79 @@ nav span {
     font-size: 13px;
 }
 
+/* Team-partnership */
+
+.team-partner {
+    margin-top: 250px;
+}
+
+.team-partner a {
+    display: inline-block;
+    text-decoration: underline;
+    color: rgb(0,97,254);
+    padding: 30px 0;
+}
+
+.wd-25 {
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+.wd-12 {
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+.wd-60-partner {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.star-test {
+    height: 300px;
+}
+
+.bg-green {
+    background-color: rgb(162,211,155);
+}
+
+.bg-brown {
+    background-color: rgb(97,8,43);
+}
+
+.bg-light-blue {
+    background-color:rgb(0,147,206);
+}
+
+.bg-light-orange {
+    background-color: rgb(255,28,28);
+}
+
+.bg-light-grey {
+    background-color: rgb(245,245,245);
+}
+
+.bg-orange {
+    background-color: rgb(213,0,31);
+}
+
+.bg-heavenly {
+    background-color: rgb(180,208,231);
+}
+
+.bg-blue {
+    background-color: rgb(13,36,129);
+}
+
+.bg-yellow {
+    background-color: rgb(255,216,48);
+}
+
+.bg-light-heavenly {
+    background-color: rgb(180,208,231);
+}
 /* Footer */
 
