@@ -65,7 +65,7 @@ a:hover {
 }
 
 .f-size {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
 }
 
@@ -241,9 +241,37 @@ nav span {
     width: calc(33% - 40px);
 }
 
+/* Contatta Ufficio Vendita */
+
 .last-row {
+    height: 200px;
     margin: 100px auto;
     border: 1px solid lightgrey;
+}
+
+.wd-70 {
+    line-height: 40px;
+    vertical-align: middle;
+    float: left;
+    max-width: 70%;
+}
+
+.wd-30 {
+    float: left;
+    max-width: 30%;
+}
+
+.wd-30 .btn {
+    cursor: pointer;
+    margin: 30px;
+    padding: 5px 5px;
+}
+
+/* Entra in contatto con un partner Dropbox */
+
+.wd-50 {
+    float: left;
+    min-height: 300px;
 }
 
 /* Footer */
