@@ -109,11 +109,15 @@ hr {
     height: 80px;
 }
 
+.title img {
+    vertical-align: middle;
+}
+
 .title {
     margin: 0 15px;
     float: left;
     width: calc(50% - 30px);
-    line-height: 80px;
+    position: relative;
 }
 
 .nav-head {
@@ -125,7 +129,8 @@ hr {
 }
 
 .head-right {
-    text-align: right;
+    position: absolute;
+    right: 0;
 }
 
 nav > a {
@@ -246,6 +251,9 @@ nav span {
     color: rgb(0,97,254);
 }
 
+.col-top hr {
+    width: 40px;
+}
 
 /* Contatta Ufficio Vendita */
 
@@ -367,6 +375,10 @@ nav span {
     float: left;
     width: 50%;
     height: 400px;
+}
+
+.wd-60-partner hr {
+    width: 130px;
 }
 
 .partner-designit {
@@ -498,7 +510,6 @@ footer {
 
 footer hr {
     background-color: white;
-    width: 10%;
     margin: 100px 0;
 }
 
