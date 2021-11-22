@@ -218,6 +218,12 @@ nav > a {
     border-radius: 50%;
 }
 
+.circle-point:hover {
+    height: 15px;
+    width: 15px;
+    border: 4px solid blue;
+}
+
 #payment-month {
    margin-right: 30px;
 }
