@@ -50,6 +50,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
@@ -134,6 +135,30 @@ hr {
     height: 80px;
     line-height: 80px;
     margin: 0 25px;
+}
+
+.submenu {
+    background-color: white;
+    position: absolute;
+    display: none;
+    top: 80px;
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+    line-height: 50px;
+}
+
+.submenu span {
+    font-size: 12px;
+    margin: 0 30px;
+}
+
+.submenu span:hover {
+    background-color: lightgrey;
+}
+
+.border-down:hover .submenu{
+    display: block;
 }
 
 .border-down:hover {
