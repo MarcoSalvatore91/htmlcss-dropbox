@@ -49,7 +49,8 @@ a:hover {
 }
 
 .btn:hover {
-    color: black;
+    filter: brightness(1.2);
+    color: white;
 }
 
 .f-bold{
@@ -87,7 +88,7 @@ li {
 
 .col-bottom {
     float: left;
-    height: 350px;
+    height: 450px;
     border: 1px solid lightgrey;
     border-top: hidden;
     width: calc(33% - 40px);
@@ -99,6 +100,11 @@ li {
 
 hr {
     border-color: lightgrey;
+}
+
+.color-blue {
+    color: blue
+    ;
 }
 
 /* Content */
@@ -253,6 +259,16 @@ nav span {
 
 .col-top hr {
     width: 40px;
+}
+
+.col-info .gray {
+    font-size: 12px;
+}
+
+.col-bottom h3, .col-bottom li {
+    margin: 10px 30px;
+    padding: 0 5px;
+    
 }
 
 /* Contatta Ufficio Vendita */
@@ -503,9 +519,13 @@ footer {
     line-height: 50px;
 }
 
-.wd-20-foot li {
-    color: white;
+.wd-20-foot li{
     line-height: 30px;
+}
+
+.wd-20-foot a {
+    color: white;
+    text-decoration: none;
 }
 
 footer hr {
