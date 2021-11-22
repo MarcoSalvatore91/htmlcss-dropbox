@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
 }
 
 /* Utilities */
@@ -113,6 +114,13 @@ hr {
 
 .display-fix {
     height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 1px 2px grey;
 }
 
 .title img {
@@ -160,21 +168,21 @@ nav > a {
     font-size: 75px;
 }
 
-#wd-40, #wd-60 {
+#w-40, #w-60 {
     margin-top: 30px;
 }
 
-#wd-40 {
+#w-40 {
     float: left;
     width: 40%;
     padding-right: 100px;
 }
 
-#wd-40 p {
+#w-40 p {
     margin-bottom: 20px;
 }
 
-#wd-40 .btn {
+#w-40 .btn {
     margin-bottom: 10px;
 }
 
@@ -184,12 +192,12 @@ nav > a {
     font-size: 30px;
 }
 
-#wd-60 {
+#w-60 {
     float: left;
     width: 60%;
 }
 
-#wd-60 img {
+#w-60 img {
     height: 100%;
     width: 100%;
 }
@@ -279,19 +287,19 @@ nav span {
     border: 1px solid lightgrey;
 }
 
-.wd-70 {
+.w-70 {
     line-height: 40px;
     vertical-align: middle;
     float: left;
     max-width: 70%;
 }
 
-.wd-30 {
+.w-30 {
     float: left;
     max-width: 30%;
 }
 
-.wd-30 .btn {
+.w-30 .btn {
     cursor: pointer;
     margin: 30px;
     padding: 5px 5px;
@@ -303,32 +311,32 @@ nav span {
     margin: 150px auto;
 }
 
-.wd-50 {
+.w-50 {
     float: left;
     height: 400px;
     width: 50%;
 }
 
-.wd-50 img {
+.w-50 img {
     height: 100%;
     width: 100%;
 }
 
-.wd-50-text {
+.w-50-text {
     padding: 20px 40px;
 }
 
-.wd-50-text p {
+.w-50-text p {
     margin: 20px 0;
     font-size: 14px;
 }
 
-.wd-50-text span {
+.w-50-text span {
     border: 1px solid black;
     padding: 5px 15px;
 }
 
-.wd-50-text span:hover {
+.w-50-text span:hover {
     cursor: pointer;
     background-color: rgb(0,97,254);
 }
@@ -370,13 +378,13 @@ nav span {
     padding: 30px 0;
 }
 
-.wd-25 {
+.w-25 {
     float: left;
     width: 25%;
     height: 400px;
 }
 
-.wd-12 {
+.w-12 {
     float: left;
     width: 50%;
     height: 200px;
@@ -385,15 +393,20 @@ nav span {
     background-size: 50%;
     background-position: center;
     filter: invert(100%);
+    transition: box-shadow 0.3s ease 0s;
 }
 
-.wd-60-partner {
+.w-12:hover {
+    box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.w-60-partner {
     float: left;
     width: 50%;
     height: 400px;
 }
 
-.wd-60-partner hr {
+.w-60-partner hr {
     width: 130px;
 }
 
@@ -407,15 +420,14 @@ nav span {
     margin-bottom: 30px;
 }
 
-.partner-designit p {
-    margin: 40px;
+.partner-designit p, .partner-designit address {
+    margin: 40px auto;
     font-weight: 600;
 }
 
 address {
     font-style: normal;
     font-weight: 600;
-    padding-left: 40px;
 }
 
 .star-test {
@@ -478,7 +490,20 @@ address {
 }
 
 .start-test .small-conteiner h1 {
+    float: left;
+    width: 70%;
     color:rgb(97,9,44);
+}
+
+.start-test .btn {
+    float: left;
+    width: 30%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 10px 30px;
+    top: 0;
+    right: 0;
 }
 
 /* Domande Frequenti */
@@ -507,10 +532,10 @@ address {
 
 footer {
     background-color: rgb(0, 0, 0);
-    height: 600px;
+    height: 550px;
 }
 
-.wd-20-foot {
+.w-20-foot {
     height: 300px;
     margin: 50px auto;
     float: left;
@@ -519,18 +544,18 @@ footer {
     line-height: 50px;
 }
 
-.wd-20-foot li{
+.w-20-foot li{
     line-height: 30px;
 }
 
-.wd-20-foot a {
+.w-20-foot a {
     color: white;
     text-decoration: none;
 }
 
 footer hr {
     background-color: white;
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
 }
 
 footer span {
