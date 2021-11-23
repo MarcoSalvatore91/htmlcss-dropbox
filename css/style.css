@@ -226,7 +226,7 @@ nav > a {
     margin-bottom: 10px;
 }
 
-#arrow {
+#arrow-jumbo {
     display: inline-block;
     margin-top: 80px;
     font-size: 30px;
@@ -578,7 +578,7 @@ address {
 /* Domande Frequenti */
 
 .requests{
-    margin: 100px auto;
+    height: 100px auto;
     line-height: 100px;
     position: relative;
 }
@@ -595,6 +595,23 @@ address {
 .arrow {
     position: absolute;
     right: 50px;
+}
+
+.frequent-questions:hover .arrow {
+    transform: rotate(180deg);
+}
+
+.sub-questions{
+    position: relative;
+    height: 75px;
+    display: none;
+    line-height: 20px;
+    font-size: 12px;
+    color: grey;
+}
+
+.frequent-questions:hover .sub-questions {
+    display: block;
 }
 
 /* Footer */
