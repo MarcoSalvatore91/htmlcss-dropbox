@@ -437,6 +437,10 @@ nav span {
     font-size: 13px;
 }
 
+.dropbox-operation a {
+    text-decoration: underline;
+}
+
 /* Team-partnership */
 
 .team-partner {
