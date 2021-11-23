@@ -119,13 +119,14 @@ hr {
 }
 
 .title img {
-    vertical-align: middle;
+    position: relative;
+    top: 5px;
 }
 
 .title {
-    margin: 0 15px;
+    margin: 0 20px;
     float: left;
-    width: calc(50% - 30px);
+    width: calc(50% - 40px);
     position: relative;
 }
 
@@ -230,7 +231,7 @@ nav > a {
     margin-top: 80px;
     font-size: 30px;
     animation: bouncing 2s ease infinite;
-    cursor: pointer;
+    color: black;
 }
 
 @keyframes bouncing {
@@ -608,7 +609,7 @@ address {
 
 .sub-questions{
     position: relative;
-    height: 75px;
+    height: 100px;
     display: none;
     line-height: 20px;
     font-size: 12px;
