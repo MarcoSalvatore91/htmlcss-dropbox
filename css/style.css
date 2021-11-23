@@ -360,7 +360,7 @@ nav span {
 
 .last-row {
     height: 200px;
-    margin: 50px auto;
+    margin: 50px auto 150px auto;
     border: 1px solid lightgrey;
 }
 
@@ -383,10 +383,6 @@ nav span {
 }
 
 /* Entra in contatto con un partner Dropbox */
-
-.dropbox-partner {
-    margin: 150px auto;
-}
 
 .w-50 {
     float: left;
