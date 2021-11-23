@@ -148,12 +148,15 @@ hr {
     line-height: 50px;
 }
 
-.submenu span {
+.submenu a {
+    display: inline-block;
+    width: 100%;
     font-size: 12px;
-    margin: 0 30px;
+    padding-left: 25px;
 }
 
-.submenu span:hover {
+.submenu a:hover {
+    color: black;
     background-color: lightgrey;
 }
 
@@ -225,8 +228,16 @@ nav > a {
 
 #arrow {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 30px;
+    animation: bouncing 2s ease infinite;
+    cursor: pointer;
+}
+
+@keyframes bouncing {
+    0%, 50%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-20px);}
+	60% {transform: translateY(-10px);}
 }
 
 /* Jumbotron Immagine */
