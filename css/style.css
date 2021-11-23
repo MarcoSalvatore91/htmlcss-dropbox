@@ -190,7 +190,6 @@ nav > a {
 #jumbotron {
     background-color: rgb(180,208,231);
     height: 650px;
-    margin-bottom: 200px;
 }
 
 #w-40, #w-60 {
@@ -250,6 +249,11 @@ nav > a {
 /* Main */
 
 /* Tariffa Dropbox */
+
+#dropbox-business{
+    margin-top: 100px;
+    padding-top: 100px;
+}
 
 #period-payment {
     margin: 80px 0 40px 0;
