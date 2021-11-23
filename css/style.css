@@ -594,9 +594,10 @@ address {
     margin-bottom: 50px;
 }
 
-.requests span {
+.frequent-questions > span {
     font-size: 14px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .arrow {
@@ -613,7 +614,7 @@ address {
     height: 100px;
     display: none;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: grey;
 }
 
