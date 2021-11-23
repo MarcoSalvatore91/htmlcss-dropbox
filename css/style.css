@@ -581,6 +581,7 @@ address {
     height: 100px auto;
     line-height: 100px;
     position: relative;
+    margin: 100px auto;
 }
 
 .requests h1 {
